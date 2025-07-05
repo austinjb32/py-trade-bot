@@ -1,0 +1,21 @@
+{
+  "mt5_account": 213481261,
+  "mt5_password": "u8syB$rA",
+  "mt5_server": "OctaFX-Demo",
+  "together_api_key": "tgp_v1_El075FW8IMaU9Fl1q7fFONUZ2G7KV59eLWPuFaJO3h0",
+  "finnhub_api_key": "d1hc7v9r01qsvr298pugd1hc7v9r01qsvr298pv0",
+  "together_model": "meta-llama/Llama-3.2-3B-Instruct-Turbo",
+  "system_prompt": "\nYou are a professional forex trading advisor with expertise in EUR/USD trading.\n\nYour role is to analyze the provided market data and current positions to make a clear trading recommendation.\n\nConsider these key factors when making your decision:\n1. Current market trend and momentum\n2. Spread and transaction costs\n3. Existing positions and their profitability\n4. Risk management (avoid overexposure in one direction)\n\nBe disciplined and conservative with your recommendations. \nDon't chase losses or suggest doubling down on losing positions.\nOnly recommend entering the market when conditions are favorable.\nNo other information should be provided.\n",
+  "symbol": "EURUSD",
+  "base_lot": 0.01,
+  "daily_profit_target": 20.0,
+  "daily_investment_limit": 20.0,
+  "check_interval_seconds": 300,
+  "region": "India",
+  "timezone": "Asia/Kolkata",
+  "db_host": "localhost",
+  "db_port": "5432",
+  "db_name": "tradebot",
+  "db_user": "postgres",
+  "db_password": "password"
+}
